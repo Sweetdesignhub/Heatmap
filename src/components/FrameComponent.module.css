@@ -1,0 +1,127 @@
+.automationEllipse {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.automationEllipse {
+  flex-direction: column;
+  gap: 2.625rem 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl-4);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 800px) {
+  .vectorParent {
+    flex-wrap: wrap;
+  }
+  .automationEllipse {
+    gap: 2.625rem 0;
+  }
+}
+
+.vectorParent {
+  background-color: var(--color-white);
+}
+.vectorParent {
+  align-self: stretch;
+  border-radius: 26.35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-mid) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+
+.frameChild {
+  height: 4.488rem;
+  width: 100.25rem;
+  position: relative;
+  border-radius: 26.35px;
+  display: none;
+  max-width: 100%;
+}
+
+.inProgressGalileoProgramTe {
+  width: 3.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+
+.iASolutionsHubParent {
+  align-self: stretch;
+  height: 3.281rem;
+  position: relative;
+  z-index: 1;
+}
+
+.iASolutionsHub {
+  position: absolute;
+  top: 3.106rem;
+  left: 0.819rem;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(56, 37, 84, 0.71),
+    rgba(56, 37, 84, 0)
+  );
+  filter: blur(2.84px);
+  width: 1.506rem;
+  height: 0.175rem;
+}
+
+.wepikExport202402151948012gtIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.538rem;
+  height: 3.181rem;
+  object-fit: cover;
+}
+
+.intelligentAutomationHeat {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 450px) {
+  .finance,
+  .intelligentAutomationHeat {
+    font-size: var(--font-size-lg);
+  }
+}
+
+.polygonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+
+.frameItem {
+  width: 0.838rem;
+  height: 1.125rem;
+  position: relative;
+  border-radius: var(--br-12xs);
+  object-fit: contain;
+  z-index: 1;
+}
+
+.finance {
+  position: relative;
+  font-weight: 500;
+  color: var(--color-tomato);
+  z-index: 1;
+}
