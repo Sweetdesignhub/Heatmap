@@ -1,10 +1,22 @@
-import React from 'react'
-import styles from "./cards.module.css";
+import React, { useState } from "react";
+import styles from "../styles/cards.module.css";
 
-const Cards = () => {
+const Cards = ({ onCardHover, onCardLeave }) => {
+  const [hoveredCard, setHoveredCard] = useState(null);
+
+  const handleCardHover = (cardIndex) => {
+    setHoveredCard(cardIndex);
+    onCardHover(cardIndex);
+  };
+
+  const handleCardLeave = () => {
+    setHoveredCard(null);
+    onCardLeave();
+  };
   return (
     <div className={styles.highIAImpact}>
-      <div className={styles.component1}>
+      <div className={styles.component1} onMouseEnter={() => handleCardHover(1)}
+        onMouseLeave={handleCardLeave}>
         <div className={styles.totalbusinessfunctionframeParent}>
           <div className={styles.totalbusinessfunctionframe} />
           <h3 className={styles.spaceTheFinalContainer}>
@@ -21,16 +33,17 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className={styles.component2} onClick={() => handleCardClick(2)}>
-        <div className={styles.rectangleParent3}>
-          <div className={styles.frameChild3} />
-          <h3 className={styles.spaceTheFinalContainer4}>
-            <p className={styles.account}>{`Account to`}</p>
-            <p className={styles.report}>Report</p>
-          </h3>
-          <div className={styles.wrapper20945973Converted1Wrapper1}>
-            <div className={styles.wrapper20945973Converted2}>
-              <img
+             <div className={styles.component2} onMouseEnter={() => handleCardHover(2)}
+        onMouseLeave={handleCardLeave}>
+         <div className={styles.rectangleParent3}>
+           <div className={styles.frameChild3} />
+           <h3 className={styles.spaceTheFinalContainer4}>
+             <p className={styles.account}>{`Account to`}</p>
+             <p className={styles.report}>Report</p>
+           </h3>
+           <div className={styles.wrapper20945973Converted1Wrapper1}>
+             <div className={styles.wrapper20945973Converted2}>
+               <img
                 className={styles.converted1Icon1}
                 loading="lazy"
                 alt=""
@@ -45,8 +58,8 @@ const Cards = () => {
           />
         </div>
       </div>
-
-      <div className={styles.component3}>
+      <div className={styles.component3} onMouseEnter={() => handleCardHover(3)}
+        onMouseLeave={handleCardLeave}>
         <div className={styles.rectangleParent}>
           <div className={styles.frameChild} />
           <h3 className={styles.spaceTheFinalContainer1}>
@@ -70,7 +83,8 @@ const Cards = () => {
           />
         </div>
       </div>
-      <div className={styles.component4}>
+      <div className={styles.component4} onMouseEnter={() => handleCardHover(4)}
+        onMouseLeave={handleCardLeave}>
         <div className={styles.rectangleGroup}>
           <div className={styles.frameItem} />
           <h3 className={styles.spaceTheFinal}>Payroll</h3>
@@ -86,7 +100,8 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className={styles.component7}>
+      <div className={styles.component7} onMouseEnter={() => handleCardHover(7)}
+        onMouseLeave={handleCardLeave}>
         <div className={styles.rectangleContainer}>
           <div className={styles.frameInner} />
           <div className={styles.spaceTheFinalFronParent}>
@@ -105,7 +120,8 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className={styles.component5}>
+      <div className={styles.component5} onMouseEnter={() => handleCardHover(5)}
+        onMouseLeave={handleCardLeave}>
         <div className={styles.groupDiv}>
           <div className={styles.rectangleDiv} />
           <div className={styles.spaceTheFinalFronWrapper}>
@@ -122,13 +138,14 @@ const Cards = () => {
           />
         </div>
       </div>
-      <div className={styles.component6}>
-        <div className={styles.rectangleParent4}>
-          <div className={styles.frameChild4} />
-          <div className={styles.spaceTheFinalFronGroup1}>
-            <h3 className={styles.spaceTheFinal3}>Planning & Forecasting</h3>
-            <div className={styles.wrapperWepikExport202402152244}>
-              <img
+      <div className={styles.component6} onMouseEnter={() => handleCardHover(6)}
+        onMouseLeave={handleCardLeave}>
+         <div className={styles.rectangleParent4}>
+           <div className={styles.frameChild4} />
+           <div className={styles.spaceTheFinalFronGroup1}>
+             <h3 className={styles.spaceTheFinal3}>Planning & Forecasting</h3>
+             <div className={styles.wrapperWepikExport202402152244}>
+               <img
                 className={styles.wepikexport20240215211747wkkgIcon}
                 loading="lazy"
                 alt=""
@@ -138,7 +155,8 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className={styles.component8}>
+      <div className={styles.component8} onMouseEnter={() => handleCardHover(8)}
+        onMouseLeave={handleCardLeave}>
         <div className={styles.rectangleParent1}>
           <div className={styles.frameChild1} />
           <div className={styles.spaceTheFinalFronGroup}>
@@ -154,7 +172,8 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className={styles.component9}>
+      <div className={styles.component9} onMouseEnter={() => handleCardHover(9)}
+        onMouseLeave={handleCardLeave}>
         <div className={styles.rectangleParent2}>
           <div className={styles.frameChild2} />
           <div className={styles.spaceTheFinalFronContainer}>
@@ -175,4 +194,7 @@ const Cards = () => {
 };
 
 export default Cards;
+
+
+
 

@@ -100,12 +100,13 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div7 {
@@ -138,12 +139,13 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
-    padding: 0 10px;
-    font: 500 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    padding: 0 8px;
 }
 @media (max-width: 991px) {
   .div10 {
@@ -177,12 +179,13 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 500 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div13 {
@@ -272,15 +275,79 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div19 {
+    white-space: initial;
+  }
+}
+
+.div19a {
+  background-color: #5f75ff;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 33px;
+    font: 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 0 8px;
+    margin-left: 0.4rem;
+}
+@media (max-width: 991px) {
+  .div19a {
+    white-space: initial;
+  }
+}
+
+.div19b {
+  background-color: #5f75ff;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 33px;
+    font: 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 0 8px;
+    margin-left: 0.4rem;
+}
+@media (max-width: 991px) {
+  .div19b {
+    white-space: initial;
+  }
+}
+
+.div19c {
+  background-color: #5f75ff;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 33px;
+    font: 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 0 8px;
+    margin-left: 0.4rem;
+}
+@media (max-width: 991px) {
+  .div19c {
     white-space: initial;
   }
 }
@@ -311,12 +378,13 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div22 {
@@ -351,12 +419,13 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 500 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div25 {
@@ -447,15 +516,59 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    /* margin-left: 0.4rem; */
 }
 @media (max-width: 991px) {
   .div31 {
+    white-space: initial;
+  }
+}
+
+.div31a {
+  background-color: #f63333;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 33px;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 0 8px;
+    margin-left: 0.4rem;
+}
+@media (max-width: 991px) {
+  .div31a {
+    white-space: initial;
+  }
+}
+
+.div31b {
+  background-color: #f63333;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 33px;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.48px;
+    padding: 0 8px;
+    margin-left: 0.4rem;
+}
+@media (max-width: 991px) {
+  .div31b {
     white-space: initial;
   }
 }
@@ -486,12 +599,13 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 500 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div34 {
@@ -526,12 +640,13 @@
     padding-bottom: 100%;
     justify-content: center;
     align-items: center;
-    height: 26px;
+    width: 18px;
+    height: 33px;
+    font: 500 22px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
     letter-spacing: 0.48px;
     padding: 0 8px;
-    font: 500 18px / 137.5% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
 }
 @media (max-width: 991px) {
   .div37 {
@@ -683,6 +798,26 @@
     white-space: initial;
   }
 }
+
+.div44a {
+  background-color: #058b8a;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.66px;
+    padding: 0 16px;
+    font: 600 18px / 294% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-left: -2rem;
+}
+@media (max-width: 991px) {
+  .div44a {
+    white-space: initial;
+  }
+}
 .div45 {
   font-family: Poppins, sans-serif;
   border-radius: 6px;
@@ -708,12 +843,72 @@
     white-space: nowrap;
     text-align: center;
     letter-spacing: 0.66px;
-    padding: 0 18px;
+    padding: 0 16px;
     font: 600 18px / 294% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
     margin-left: -2rem;
 }
 @media (max-width: 991px) {
   .div46 {
+    white-space: initial;
+  }
+}
+
+.div46a {
+  background-color: #902d99;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.66px;
+    padding: 0 18px;
+    font: 600 18px / 294% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-left: -2rem;
+}
+@media (max-width: 991px) {
+  .div46a {
+    white-space: initial;
+  }
+}
+
+.div46b {
+  background-color: #902d99;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.66px;
+    padding: 0 13px;
+    font: 600 18px / 294% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-left: -2rem;
+}
+@media (max-width: 991px) {
+  .div46b {
+    white-space: initial;
+  }
+}
+
+.div46c {
+  background-color: #902d99;
+    border-radius: 50%;
+    padding-bottom: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.66px;
+    padding: 0 13px;
+    font: 600 18px / 294% Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-left: -2rem;
+}
+@media (max-width: 991px) {
+  .div46c {
     white-space: initial;
   }
 }

@@ -1,9 +1,9 @@
 import styles from "../../styles/GroupComponent.module.css";
 
-const GroupComponent = () => {
+const GroupComponent5 = () => {
   return (
     <div className={styles.div}>
-        <div className={styles.div2}>Invoice to Cash Dashboard</div>
+        <div className={styles.div2}>Planning & Forecasting Dashboard</div>
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets%2Ff28dd5ac275a4ccda7cdb61d5a703fec%2F790b443413cc4f668ebad67ce75f2504?apiKey=f28dd5ac275a4ccda7cdb61d5a703fec&"
@@ -11,16 +11,16 @@ const GroupComponent = () => {
         <div className={styles.div3}>
           <div className={styles.div4}>
             <div className={styles.div5}>Total Business Function</div>
-            <div className={styles.div6}>05</div>
-            <div className={styles.div7}>4</div>
+            <div className={styles.div6}>09</div>
+            <div className={styles.div7}>2</div>
             <div className={styles.div8}>High IA Impact</div>
           </div>
           <div className={styles.div9}>
-            <div className={styles.div10}>1</div>
+            <div className={styles.div10}>5</div>
             <div className={styles.div11}>Medium IA Impact</div>
           </div>
           <div className={styles.div12}>
-            <div className={styles.div13}>0</div>
+            <div className={styles.div13}>1</div>
             <div className={styles.div14}>Low IA Impact</div>
           </div>
         </div>
@@ -31,16 +31,16 @@ const GroupComponent = () => {
         <div className={styles.div15}>
           <div className={styles.div16}>
             <div className={styles.div17}>Automation Opportunity</div>
-            <div className={styles.div18}>03</div>
-            <div className={styles.div19}>3</div>
+            <div className={styles.div18}>13</div>
+            <div className={styles.div19c}>1</div>
             <div className={styles.div20}>Conversational</div>
           </div>
           <div className={styles.div21}>
-            <div className={styles.div22}>0</div>
+            <div className={styles.div22}>3</div>
             <div className={styles.div23}>Process Execution</div>
           </div>
           <div className={styles.div24}>
-            <div className={styles.div25}>3</div>
+            <div className={styles.div25}>11</div>
             <div className={styles.div26}>AI/ML</div>
           </div>
         </div>
@@ -51,16 +51,16 @@ const GroupComponent = () => {
         <div className={styles.div27}>
           <div className={styles.div28}>
             <div className={styles.div29}>Implemented IA Solutions</div>
-            <div className={styles.div30}>07</div>
+            <div className={styles.div30}>00</div>
             <div className={styles.div31}>0</div>
             <div className={styles.div32}>Conversational</div>
           </div>
           <div className={styles.div33}>
-            <div className={styles.div34}>5</div>
+            <div className={styles.div34}>0</div>
             <div className={styles.div35}>Process Execution</div>
           </div>
           <div className={styles.div36}>
-            <div className={styles.div37}>2</div>
+            <div className={styles.div37}>0</div>
             <div className={styles.div38}>AI/ML</div>
           </div>
         </div>
@@ -71,7 +71,7 @@ const GroupComponent = () => {
         <div className={styles.div39}>
           <div className={styles.div40}>
             <div className={styles.div41}>E2E Automation Target</div>
-            <div className={styles.div41a}>02</div>
+            <div className={styles.div41a}>03</div>
           </div>
         </div>
         <img
@@ -92,6 +92,6 @@ const GroupComponent = () => {
   );
 }
 
-export default GroupComponent;
+export default GroupComponent5;
 
 

@@ -36,7 +36,7 @@
   position: absolute;
   top: 5.188rem;
   left: 0;
-  font-size: var(--font-size-4xl);
+  font-size: var(--font-size-3xl);
   font-weight: 600;
   font-family: var(--font-museomoderno);
   text-align: center;
@@ -195,9 +195,10 @@
 .helpFrameParent {
   flex: 1;
 }
+/* .rectangleParent */
 .frameWrapper,
-.helpFrameParent,
-.rectangleParent {
+.helpFrameParent
+ {
   display: flex;
   justify-content: flex-start;
 }
@@ -209,11 +210,13 @@
   font-size: var(--font-size-xl);
 }
 .rectangleParent {
-  max-height: 180vh;
+  /* max-height: 180vh;
   min-height: 274vh;
-  width: 16.25rem;
-  background-color: var(--color-crimson-100);
+  width: 16.25rem; */
+  display: flex;
   flex-direction: column;
+  height: 100%;
+  background-color: var(--color-crimson-100);
   align-items: flex-end;
   padding: var(--padding-22xl) 0 var(--padding-xl);
   box-sizing: border-box;
@@ -263,16 +266,17 @@ a.active .icon-text {
   -webkit-background-clip: text;
   color: transparent;
   vertical-align: 7%;
+  margin-right: 5px;
 }
 
 .icon-e{
   margin-right: 5px;
 } 
 
-a.active .icon-e {
+/* a.active .icon-e {
   color: red;
   margin-right: 5px;
-}
+} */
 
 
 a .icon-text {
@@ -293,7 +297,7 @@ a:hover .icon-text {
   display: block;
   padding: 18px;
   letter-spacing: 0em;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s;
   padding-left: 47px;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
@@ -341,4 +345,9 @@ aside p {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-left: 10px;
+}
+
+a.active .icon {
+  color: red; 
+  margin-right: 25px;
 }

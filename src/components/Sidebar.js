@@ -1,4 +1,4 @@
-import styles from "./Sidebar.module.css";
+import styles from "../styles/Sidebar.module.css";
 import { Link, useLocation } from "react-router-dom";
 import { IoPerson } from "react-icons/io5";
 import { BsFolder2 } from "react-icons/bs";
@@ -8,6 +8,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { IoLogOutOutline } from "react-icons/io5";
 
 const Sidebar = () => {
+  const location = useLocation();
   return (
     <div className={styles.rectangleParent}>
       <div className={styles.frameChild} />
@@ -30,45 +31,45 @@ const Sidebar = () => {
       <div className={styles.settingsFrame}>
         <div className={styles["sidebar-links"]}>
           <Link
-            to="/dashboard"
-            className={location.pathname === "/dashboard" ? styles.active : ""}
+            to=""
+            className={location.pathname === "" ? styles.active : ""}
           >
             <IoPerson className={styles.icon} />
             <span className={styles["icon-text"]}>Department</span>
           </Link>
           <Link
-            to="/service-risk-report"
+            to="/frame-screen"
             className={
-              location.pathname === "/service-risk-report" ? styles.active : ""
+              location.pathname === "/frame-screen" ? styles.active : ""
             }
           >
             <BsFolder2 className={styles.icon} />
             <span className={styles["icon-text"]}>Dashboard</span>
           </Link>
           <Link
-            to="/notifications"
-            className={location.pathname === "/notifications" ? styles.active : ""}
+            to=""
+            className={location.pathname === "" ? styles.active : ""}
           >
             <BsCalendarDate className={styles.icon} />
             <span className={styles["icon-text"]}>Events</span>
           </Link>
           <Link
-            to="/report"
-            className={location.pathname === "/report" ? styles.active : ""}
+            to=""
+            className={location.pathname === "" ? styles.active : ""}
           >
             <BsGraphUp className={styles.icon} />
             <span className={styles["icon-text"]}>Stats</span>
           </Link>
           <Link
-            to="/report"
-            className={location.pathname === "/report" ? styles.active : ""}
+            to=""
+            className={location.pathname === "" ? styles.active : ""}
           >
             <IoSettingsOutline className={styles.icon} />
             <span className={styles["icon-text"]}>Settings</span>
           </Link>
           <Link
-            to="/report"
-            className={location.pathname === "/report" ? styles.active : ""}
+            to=""
+            className={location.pathname === "" ? styles.active : ""}
           >
             <IoLogOutOutline className={styles.icon} />
             <span className={styles["icon-text"]}>Logout</span>

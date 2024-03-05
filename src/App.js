@@ -1,52 +1,25 @@
-import { useEffect } from "react";
-import {
-  Routes,
-  Route,
-  useNavigationType,
-  useLocation,
-} from "react-router-dom";
-import InvoiceToCash from "./pages/InvoiceToCash";
+import React, { useState } from "react";
+import "./global.css";
+import { Route, Routes } from "react-router-dom";
+import FrameComponent from "./components/FrameComponent";
+import Sidebar from "./components/Sidebar";
 
-function App() {
-  const action = useNavigationType();
-  const location = useLocation();
-  const pathname = location.pathname;
 
-  useEffect(() => {
-    if (action !== "POP") {
-      window.scrollTo(0, 0);
-    }
-  }, [action, pathname]);
 
-  useEffect(() => {
-    let title = "";
-    let metaDescription = "";
-
-    switch (pathname) {
-      case "/":
-        title = "";
-        metaDescription = "";
-        break;
-    }
-
-    if (title) {
-      document.title = title;
-    }
-
-    if (metaDescription) {
-      const metaDescriptionTag = document.querySelector(
-        'head > meta[name="description"]'
-      );
-      if (metaDescriptionTag) {
-        metaDescriptionTag.content = metaDescription;
-      }
-    }
-  }, [pathname]);
-
+const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<InvoiceToCash />} />
-    </Routes>
+    <div className="sidebar">
+    <Sidebar />
+    <main className="sidebarInner">
+        <section className="sidebarParent">
+        <Routes>
+          {/* <Route path="/" element={<FrameComponent />} /> */}
+          <Route path="/frame-screen" element={<FrameComponent />} />
+        </Routes>
+        </section>
+        </main>
+    </div>
   );
-}
+};
+
 export default App;
